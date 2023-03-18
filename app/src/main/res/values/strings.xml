@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HW_6_AndroidApi</string>
+    <string name="etName">Введіть імʼя автора замітки</string>
+    <string name="btnSaveAuthor">Зберегти</string>
+    <string name="btnAddNote">Додати замітку</string>
+    <string name="btnAllNotes">Всі замітки</string>
+    <string name="tvAuthorName">Автор</string>
+    <string name="etNoteTitle">Заголовок</string>
+    <string name="btnSave">Зберегти</string>
+    <string name="btnClear">Очистити</string>
+    <string name="etmNoteText">Текст замітки</string>
+</resources>
