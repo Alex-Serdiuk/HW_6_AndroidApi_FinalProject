@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".ListNotesActivity">
 
-    <ListView
-        android:id="@+id/lvNotesList"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNotesList"
         android:background="@drawable/brown_old_paper_texture_vintage_paper_background"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -19,7 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </ListView>
+    </androidx.recyclerview.widget.RecyclerView>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAddNote"
         android:layout_width="wrap_content"
